@@ -18,7 +18,7 @@ const devConfig = {
                 marketing: 'marketing_remote@http://localhost:8081/remoteEntry.js'
             },
             shared: packageJson.dependencies
-        })        
+        })
     ]
 }
 
