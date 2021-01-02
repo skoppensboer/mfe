@@ -3,7 +3,4 @@ import ReacDOM from 'react-dom'
 
 import App from './App'
 
-ReacDOM.render(
-    <App></App>,
-    document.querySelector('#root')
-)
+ReacDOM.render(<App></App>,document.querySelector('#root'))
