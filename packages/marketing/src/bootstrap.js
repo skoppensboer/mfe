@@ -10,8 +10,6 @@ if (process.env.NODE_ENV === 'development') {
     console.log('Dev Mode...')
     const devRoot = document.querySelector('#_marketing-dev-root')
 
-    console.log(devRoot)
-
     if (devRoot) {
         mount(devRoot)
     }
